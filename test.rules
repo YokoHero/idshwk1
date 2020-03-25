@@ -1,1 +1,1 @@
-alert tcp any any -> any 1080 (msg:"TEST ALERT"; offset:10; depth:10; content:"hostip"; flags:U;)
+alert tcp any any -> any 1080 (msg:"TEST ALERT"; content:"hostip"; offset:10; depth:10; flags:U;)
